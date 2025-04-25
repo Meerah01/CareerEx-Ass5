@@ -275,7 +275,7 @@ console.log( drugPrescription2 )
 //Question 9 - Write a function that takes a manufacturer name and returns how many drugs are from that company.
 
 function drugsByManufacturer(manufacturer) {
-    return drugs.filter(drug => drug.manufacturer === manufacturer)
+    return drugs.filter(drug => drug.manufacturer === manufacturer).length
 }
 
 console.log( drugsByManufacturer("Pfizer") )
